@@ -1,8 +1,7 @@
-from game import Game
+from game.game import Game
 
 
 game = Game()
-
 while True:
     game.playGame()
     print()
